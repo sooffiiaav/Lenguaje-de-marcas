@@ -2,12 +2,39 @@
 <html>
     <head>
         <title>HTML</title>
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
     </head>
     <body>
-        <a href="index.html">
-            <img src="flecha.jpg" width="50" height="50">
-        </a>
         <center><h1>HTML</h1></center>
-        <p></p>
-    </body>   
+        <center><h2>¿Quieres aprender HTML?</h2></center>
+        <table style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>Elementos en línea</th>
+                
+                    <th>Elementos en bloque</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>mark</td>
+                    <td>article</td>
+
+                </tr>
+            </tbody>
+        </table>
+        <p> Para saber mas información registrate, haciendo el siguiente formulario:</p>
+        <section>
+            <input type="text" name="nombres" id="nombre" placeholder="Ingrese su nombre">
+            <input type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos">
+            <input type="text" name="correo" id="correo" placeholder="Ingrese su correo">
+            <input type="text" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña">
+            <input type="submit" value="Registrar">
+        </section>
 </html>
+    </body>
